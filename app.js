@@ -24,25 +24,21 @@ const operate = (numberOne, numberTwo, operator) => {
   
   if (operator == '+') {
     result = add(numberOne, numberTwo);
-    console.log(result);
     return result;
   }
 
   if (operator == '-') {
     result = subtract(numberOne, numberTwo);
-    console.log(result);
     return result;
   }
 
   if (operator == '*') {
     result = multiply(numberOne, numberTwo);
-    console.log(result);
     return result;
   }
 
   if (operator == '/') {
     result = divide(numberOne, numberTwo);
-    console.log(result);
     return result;
   }
 }
